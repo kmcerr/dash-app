@@ -1,11 +1,5 @@
-# Ignore the .csv file
-time_slot.csv
-
-# Ignore environment variables
-.env
-
-# Ignore Python virtual environment
-.venv/
-
-# Ignore database files (optional, if you want to exclude local DB)
+*.csv
 *.db
+.env
+.venv/
+__pycache__/
